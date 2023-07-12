@@ -8,10 +8,11 @@ import Skills from "./components/Skills";
 export default function App() {
   return (
     <main className="text-gray-400 bg-indigo-900 body-font">
+      <Navbar />
       <About />
       
       {/*
-      <Navbar />
+      
       <Projects />
       <Skills />
       <Contact /> */}
